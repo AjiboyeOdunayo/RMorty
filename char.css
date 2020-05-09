@@ -1,3 +1,6 @@
+body{
+	width: 100%;
+}
 .navbar{
 	text-decoration:none;
 	color:red;
@@ -9,8 +12,8 @@
 header{
 	margin-left: 30px;
 	font-size: 30px;
-	
-	background-color: brown;
+		background-color:brown;
+	width:100%;
 }
 
 a{
@@ -28,13 +31,21 @@ a{
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	background-color:brown;
+	color: white;
 
 }
 #rock{
 	margin-left: 900px;
+	background-color:brown;
 }
 
 .page{
 	padding-top: 50px;
+}
+
+.page{
+	background-color: brown;
+	color: white;
 }
