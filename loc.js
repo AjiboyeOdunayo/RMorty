@@ -8,7 +8,7 @@ fetch( "https://rickandmortyapi.com/api/location").then (response=>{
         const div =`
        <div class="col-md-3">
     <div class="card mb-4 shadow-sm">
-        <img id="image" src="locate.jpg"${items.image}
+        <img id="image" src="loc.jpg"${items.image}
         " class="bd-placeholder-img card-img-top" width="200px" height="200px"/>   
     </div>
 
